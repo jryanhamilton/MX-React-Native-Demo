@@ -22,7 +22,7 @@ Install React and Expo
 `npm install react-native`
 
 Create the expo app
-`npx create-expo-app my-app`
+`npx create-expo-app {my-app}` where {my-app} is the name of the application.
 
 Install expo linking module
 `npx expo install expo-linking`
