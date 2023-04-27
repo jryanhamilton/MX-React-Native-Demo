@@ -31,7 +31,7 @@ Install React Navigation
 `npm install @react-navigation/native-stack`
 
 Install the MX React Native SDK
-`npm install —save @mxenabled/react-native-widget-sdk`
+`npm install @mxenabled/react-native-widget-sdk`
 
 
 ## Getting Started
