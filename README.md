@@ -17,12 +17,11 @@ You will also need a way of generating a Connect Widget URL.  My recommendation 
 
 
 ## Installation
+Copy or clone the repository contents into a folder of your choosing.  Then install the following components or libraries into that same folder.
+
 Install React and Expo
 `npm install expo`
 `npm install react-native`
-
-Create the expo app
-`npx create-expo-app {my-app}` where {my-app} is the name of the application.
 
 Install expo linking module
 `npx expo install expo-linking`
@@ -34,10 +33,11 @@ Install the MX React Native SDK
 `npm install @mxenabled/react-native-widget-sdk`
 
 
+Right now the demo application is named "mx-react-native-demo".  If you want the application to be named something different for your needs, 
+
+
 ## Getting Started
-
 To start the demo application, in the application directory run `npm start` in your terminal.  That will trigger the expo startup, begin the expo server, and present you with the simulator you would like to run.  *Make note of the expo server IP address as you will need it to interact with the application.*
-
 Generate a connect widget URL including the following configuration parameters:
 * `"client_redirect_url": "exp://{ip}:{port}/--/oauth_complete"` where {ip} is the local IP address of your application server, and {port} is the port it is running on (defaults to 19000).
 * `"is_mobile_webview": true` - this ensures that the widget will not try to send standard post message events and will prevent the connect widget from opening items in a new tab.  For more information please reference the MX documentation.

@@ -1,8 +1,8 @@
 {
   "expo": {
     "scheme": "mx",
-    "name": "rn-demo-v2",
-    "slug": "rn-demo-v2",
+    "name": "mx-react-native-demo",
+    "slug": "mx-react-native-demo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
